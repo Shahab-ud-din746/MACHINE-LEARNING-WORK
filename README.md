@@ -1,72 +1,162 @@
-<h1 align="center">🧠 Machine Learning Practical Work</h1>
+<!-- ===================== HEADER ===================== -->
+<div align="center">
 
-<p align="center">
-  <b>A complete collection of Machine Learning practicals, implemented in Python.</b><br>
-  Hazara University
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=230&section=header&text=Machine%20Learning%20Practicals&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Hazara%20University%20%7C%20Implemented%20in%20Python&descSize=18&descAlignY=58" width="100%" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Subject-Machine%20Learning-blueviolet">
-  <img src="https://img.shields.io/badge/University-Hazara%20University-green">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow">
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00D4FF&center=true&vCenter=true&width=700&lines=Algorithms+built+from+scratch.;No+black+boxes.+Pure+Python+and+pure+logic.;Find-S+%7C+ID3+%7C+C4.5+%7C+CART+and+more." alt="Typing animation" />
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Subject-Machine%20Learning-blueviolet?style=flat-square" />
+<img src="https://img.shields.io/badge/University-Hazara%20University-success?style=flat-square" />
+<img src="https://img.shields.io/badge/Status-Actively%20Updated-brightgreen?style=flat-square" />
+<img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" />
+<img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=flat-square" />
+
+</div>
+
+---
+
+## 📖 Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Student Information](#-student-information)
+- [Practicals Index](#-practicals-index)
+- [Practical Details](#-practical-details)
+- [Algorithm Comparison](#-algorithm-comparison)
+- [Workflow](#-workflow)
+- [Tech Stack](#-tech-stack)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Roadmap](#-roadmap)
+- [Learning Outcomes](#-learning-outcomes)
+- [Contact](#-contact)
+
+---
+
+## 🚀 About the Project
+
+This repository is a **complete record of my Machine Learning practical work** at **Hazara University**.
+
+Most people call `model.fit()` and hope for the best. Here, every algorithm is
+**implemented from scratch**, explained step by step, and evaluated properly, so the
+logic behind each model is clear.
+
+> 💡 **Philosophy:** *If you can build it from scratch, you truly understand it.*
 
 ---
 
 ## 👨‍🎓 Student Information
 
-| Detail | Information |
-|--------|-------------|
-| **Name** | Shahabuddin |
-| **Subject** | Machine Learning |
-| **University** | Hazara University |
-| **Repository Aim** | Practical work of Machine Learning |
+<div align="center">
+
+| | |
+|:--|:--|
+| 👤 **Name** | Shahabuddin |
+| 📘 **Subject** | Machine Learning |
+| 🏫 **University** | Hazara University |
+| 🎯 **Repository Aim** | Practical work of Machine Learning |
+
+</div>
 
 ---
 
-## 🎯 Aim of this Repository
+## 📚 Practicals Index
 
-This repository contains all my **practical work for the Machine Learning course**
-at Hazara University. Every practical includes the Python code, a clear
-explanation, and the output, so that anyone can understand and reproduce the work.
+| # | Practical | Topic | Concepts | Status |
+|:-:|-----------|-------|----------|:------:|
+| 01 | [Find-S Algorithm](./01_Find-S_Algorithm/) | Concept Learning | Most specific hypothesis | ✅ Completed |
+| 02 | [ID3, C4.5 & CART](./02_Decision_Trees/) | Decision Trees | Info Gain, Gain Ratio, Gini | ✅ Completed |
+| 03 | _Coming soon_ | - | - | ⏳ Planned |
+| 04 | _Coming soon_ | - | - | ⏳ Planned |
 
----
-
-## 📚 List of Practicals
-
-| No. | Practical | Topic | Status |
-|-----|-----------|-------|--------|
-| 01 | [Find-S Algorithm](./01_Find-S_Algorithm/) | Concept Learning | ✅ Done |
-| 02 | [ID3, C4.5 and CART Comparison](./02_Decision_Trees/) | Decision Trees | ✅ Done |
-| 03 | Coming soon | - | ⏳ Pending |
-| 04 | Coming soon | - | ⏳ Pending |
-
-> 📝 New practicals will be added to this table as the course progresses.
+> 📝 This table is updated whenever a new practical is added.
 
 ---
 
 ## 🔍 Practical Details
 
-### Practical 01: Find-S Algorithm
-- Finds the **most specific hypothesis** from positive training examples.
-- Dataset: EnjoySport
-- Output: `['Sunny', 'Warm', '?', 'Strong', '?', '?']`
+<details open>
+<summary><b>🔹 Practical 01: Find-S Algorithm</b></summary>
+<br>
 
-### Practical 02: ID3, C4.5 and CART
-- Decision tree algorithms implemented **from scratch** in Python.
-- Split criteria: **Information Gain**, **Gain Ratio** and **Gini Index**
-- Compared on accuracy, tree depth, number of nodes and training time.
-- Dataset: PlayTennis
+| Item | Description |
+|------|-------------|
+| **Goal** | Find the most specific hypothesis consistent with all positive examples |
+| **Dataset** | EnjoySport |
+| **Approach** | Start with the first positive example and generalize mismatched attributes to `?` |
+| **Final Output** | `['Sunny', 'Warm', '?', 'Strong', '?', '?']` |
+
+</details>
+
+<details open>
+<summary><b>🔹 Practical 02: ID3, C4.5 and CART Decision Trees</b></summary>
+<br>
+
+| Item | Description |
+|------|-------------|
+| **Goal** | Implement three decision tree algorithms from scratch and compare them |
+| **Dataset** | PlayTennis |
+| **Split Criteria** | Information Gain (ID3), Gain Ratio (C4.5), Gini Index (CART) |
+| **Evaluation** | Training accuracy, Leave-One-Out CV, depth, nodes, leaves, fit time |
+
+</details>
+
+<details>
+<summary><b>🔹 Practical 03 onwards</b></summary>
+<br>
+
+_New practicals will be documented here as the course progresses._
+
+</details>
 
 ---
 
-## 🛠️ Technologies Used
+## ⚖️ Algorithm Comparison
 
-- **Language:** Python 🐍
-- **Libraries:** Pandas, NumPy, Matplotlib, Scikit-learn
-- **Tools:** Jupyter Notebook, Git, GitHub
+| Feature | 🌳 ID3 | 🌲 C4.5 | 🌴 CART |
+|---------|:------:|:------:|:------:|
+| **Split criterion** | Information Gain | Gain Ratio | Gini Index |
+| **Split type** | Multi-way | Multi-way / threshold | Binary |
+| **Continuous data** | ❌ | ✅ | ✅ |
+| **Missing values** | ❌ | ✅ | ✅ |
+| **Pruning** | ❌ | ✅ | ✅ |
+| **Regression** | ❌ | ❌ | ✅ |
+
+---
+
+## 🔄 Workflow
+
+```mermaid
+flowchart LR
+    A[📥 Load Dataset] --> B[🧹 Preprocess Data]
+    B --> C[⚙️ Implement Algorithm]
+    C --> D[🏋️ Train Model]
+    D --> E[📊 Evaluate & Compare]
+    E --> F[📝 Document Results]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Language** | Python 🐍 |
+| **Data & ML** | Pandas, NumPy, Scikit-learn |
+| **Visualization** | Matplotlib |
+| **Environment** | Jupyter Notebook, VS Code |
+| **Version Control** | Git, GitHub |
 
 ---
 
@@ -75,54 +165,103 @@ explanation, and the output, so that anyone can understand and reproduce the wor
 ```
 Machine-Learning-Practicals/
 │
-├── 01_Find-S_Algorithm/
-│   └── find_s.ipynb
-├── 02_Decision_Trees/
-│   └── id3_c45_cart.ipynb
-├── data/
-├── requirements.txt
-└── README.md
+├── 📂 01_Find-S_Algorithm/
+│   └── 📓 find_s.ipynb
+│
+├── 📂 02_Decision_Trees/
+│   └── 📓 id3_c45_cart.ipynb
+│
+├── 📂 data/
+│
+├── 📄 requirements.txt
+├── 📄 LICENSE
+└── 📄 README.md
 ```
 
 ---
 
-## ▶️ How to Run
+## ⚡ Getting Started
 
+**1. Clone the repository**
 ```bash
-# 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/Machine-Learning-Practicals.git
-
-# 2. Go to the folder
 cd Machine-Learning-Practicals
+```
 
-# 3. Install the required libraries
-pip install pandas numpy matplotlib scikit-learn jupyter
+**2. (Optional) Create a virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Linux / macOS
+```
 
-# 4. Start Jupyter Notebook
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Launch Jupyter Notebook**
+```bash
 jupyter notebook
 ```
 
-Then open any practical folder and run the notebook cells in order.
+Open any practical folder and run the cells from top to bottom.
+
+<details>
+<summary><b>📄 requirements.txt</b></summary>
+
+```
+pandas
+numpy
+matplotlib
+scikit-learn
+jupyter
+```
+
+</details>
 
 ---
 
-## 📈 Learning Outcomes
+## 🗺️ Roadmap
 
-- Understanding how ML algorithms work internally, without black boxes
-- Implementing algorithms in pure Python
-- Comparing different algorithms with proper evaluation
-- Writing clean, documented, and reproducible code
+- [x] Find-S Algorithm
+- [x] ID3, C4.5 and CART comparison
+- [ ] Candidate Elimination Algorithm
+- [ ] Linear and Logistic Regression
+- [ ] K-Nearest Neighbors (KNN)
+- [ ] Naive Bayes Classifier
+- [ ] K-Means Clustering
+- [ ] Neural Network basics
+
+---
+
+## 🎓 Learning Outcomes
+
+- ✅ Understand how ML algorithms work internally
+- ✅ Implement algorithms in pure Python without black-box libraries
+- ✅ Compare models using proper evaluation metrics
+- ✅ Write clean, documented and reproducible code
 
 ---
 
 ## 📬 Contact
 
-**Shahabuddin**
-📧 Email: [haidershahabuddin@gmail.com](mailto:haidershahabuddin@gmail.com)
+<div align="center">
+
+<a href="mailto:haidershahabuddin@gmail.com">
+  <img src="https://img.shields.io/badge/Email-haidershahabuddin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</div>
 
 ---
 
-<p align="center">
-  ⭐ If you found this repository useful, please give it a star! ⭐<br>
-  Made with ❤️ by <b>Shahabuddin</b> | Hazara University
-</p>
+<div align="center">
+
+### ⭐ If this repository helped you, please give it a star! ⭐
+
+**Made with ❤️ by Shahabuddin | Hazara University**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=110&section=footer" width="100%" />
+
+</div>
